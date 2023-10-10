@@ -120,3 +120,62 @@ body {
 .modal_btn_close {
     display: none;
 }
+
+@media (min-width: 641px) and (max-width: 1199px) {
+  .timer_items {
+    width: 120px;
+  }
+
+  .zagadka {
+    width: 100%;
+    padding: 15px;
+    height: fit-content;
+  }
+
+  .answer {
+    width: 95%;
+    margin: 2.5%;
+    padding: 5px;
+    height: 50px;
+    font-size: 1.5em;
+  }
+
+  .btn_answer {
+    margin-bottom: 20%;
+  }
+
+  .modal_active {
+    width: 95%;
+    top: calc(100% - 50%);
+  }
+}
+
+@media (max-width: 640px) {
+  .timer_items {
+    width: 120px;
+  }
+
+  .zagadka {
+    width: 100%;
+    padding: 15px;
+    height: fit-content;
+  }
+
+  .answer {
+    width: 95%;
+    margin: 2.5%;
+    padding: 5px;
+  }
+
+  .btn_answer {
+    margin-bottom: 20%;
+  }
+
+  .modal_active {
+    width: 95%;
+    top: calc(100% - 50%);
+  }
+}
+
+
+
